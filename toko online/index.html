@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belanja Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Belanja Online</h1>
+        <a href="cart.html">Keranjang</a>
+    </header>
+    
+    <div class="container">
+        <div class="product">
+            <img src="./gambar/nabati.jpeg" alt="Product 1">
+            <h2>nabati</h2>
+            <p>Harga: Rp100.000</p>
+            <button onclick="addToCart('Product 1', 100000)">Tambah ke Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="./gambar/samyang.jpeg" alt="Product 2">
+            <h2>mie samyang</h2>
+            <p>Harga: Rp150.000</p>
+            <button onclick="addToCart('Product 2', 150000)">Tambah ke Keranjang</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

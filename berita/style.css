@@ -1,0 +1,186 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.berita {
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+}
+
+section.berita h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.artikel {
+    margin-bottom: 20px;
+}
+
+.artikel img {
+    width: 100%;
+    height: auto;
+}
+
+.artikel h3 {
+    margin-top: 10px;
+}
+
+.artikel p {
+    margin-bottom: 10px;
+}
+
+.artikel a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.artikel a:hover {
+    background: #555;
+}
+
+aside.sidebar {
+    float: left;
+    width: 30%;
+}
+
+aside.sidebar h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+aside.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+aside.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.tentang-kami {
+    margin-top: 20px;
+}
+
+section.tentang-kami h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section.tentang-kami p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
